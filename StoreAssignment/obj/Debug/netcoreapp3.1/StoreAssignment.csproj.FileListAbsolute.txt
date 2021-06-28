@@ -1,0 +1,13 @@
+E:\programing\WorkApp\StoreAssignment\StoreAssignment\obj\Debug\netcoreapp3.1\StoreAssignment.csprojAssemblyReference.cache
+E:\programing\WorkApp\StoreAssignment\StoreAssignment\obj\Debug\netcoreapp3.1\StoreAssignment.AssemblyInfoInputs.cache
+E:\programing\WorkApp\StoreAssignment\StoreAssignment\obj\Debug\netcoreapp3.1\StoreAssignment.AssemblyInfo.cs
+E:\programing\WorkApp\StoreAssignment\StoreAssignment\obj\Debug\netcoreapp3.1\StoreAssignment.csproj.CoreCompileInputs.cache
+E:\programing\WorkApp\StoreAssignment\StoreAssignment\bin\Debug\netcoreapp3.1\StoreAssignment.exe
+E:\programing\WorkApp\StoreAssignment\StoreAssignment\bin\Debug\netcoreapp3.1\StoreAssignment.deps.json
+E:\programing\WorkApp\StoreAssignment\StoreAssignment\bin\Debug\netcoreapp3.1\StoreAssignment.runtimeconfig.json
+E:\programing\WorkApp\StoreAssignment\StoreAssignment\bin\Debug\netcoreapp3.1\StoreAssignment.runtimeconfig.dev.json
+E:\programing\WorkApp\StoreAssignment\StoreAssignment\bin\Debug\netcoreapp3.1\StoreAssignment.dll
+E:\programing\WorkApp\StoreAssignment\StoreAssignment\bin\Debug\netcoreapp3.1\StoreAssignment.pdb
+E:\programing\WorkApp\StoreAssignment\StoreAssignment\obj\Debug\netcoreapp3.1\StoreAssignment.dll
+E:\programing\WorkApp\StoreAssignment\StoreAssignment\obj\Debug\netcoreapp3.1\StoreAssignment.pdb
+E:\programing\WorkApp\StoreAssignment\StoreAssignment\obj\Debug\netcoreapp3.1\StoreAssignment.genruntimeconfig.cache
