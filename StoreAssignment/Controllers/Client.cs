@@ -22,12 +22,7 @@
             cart.Add(this.productFactory.Create("clothing", "T-shirt", "BrandT", (decimal)15.99 ,2 , "M", "violet"));
             cart.Add(this.productFactory.Create("appliance", "laptop", "BrandL", (decimal)2345 ,1 , "ModelL", new DateTime(2021, 3, 3), 1.125));
 
-            foreach(var item in cart)
-            {
-                Console.WriteLine(item.Price);
-            }
-            Console.WriteLine();
-            Console.WriteLine();
+            
 
             return cart;
         }

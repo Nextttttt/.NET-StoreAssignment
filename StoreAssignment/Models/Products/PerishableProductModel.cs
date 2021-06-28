@@ -12,21 +12,29 @@
         {
             this.ExpirationDate = exDate;
         }
-
-        public override int DiscountCalc(DateTime curDate)
+        public override string ToString()
+        {
+            return $"{Name} - {Brand}";
+        }
+        public override decimal DiscountCalc(DateTime curDate)
         {
             int discountPersents = 0;
 
             TimeSpan span = curDate - this.expirationDate;
-            if(span.TotalDays <= 5)
+        
+            if((int)span.TotalDays <= 5 && (int)span.TotalDays > 0)
             {
-                if(span.TotalDays == 0)
-                {
-                    discountPersents = 50;
-                }
-
                 discountPersents = 10;
             }
+            else if ((int)span.TotalDays == 0)
+            {
+                discountPersents = 50;
+            }
+            else
+            {
+                discountPersents = 0;
+            }
+
 
             return discountPersents;
         }

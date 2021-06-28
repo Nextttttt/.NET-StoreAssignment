@@ -16,8 +16,11 @@
             this.ProductionDate = prDate;
             this.Weight = weight;
         }
-
-        public override int DiscountCalc(DateTime curDate)
+        public override string ToString()
+        {
+            return $"{Name} - {Brand} {Model} {Weight}";
+        }
+        public override decimal DiscountCalc(DateTime curDate)
         {
             int discountPercents = 0;
 

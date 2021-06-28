@@ -8,8 +8,8 @@
     {
         private string name;
         private string brand;
-        private readonly decimal price;
-        private readonly double quantity;
+        private decimal price;
+        private double quantity;
 
         public ProductModel(string name, string brand, decimal price, double quantity)
         {
@@ -19,7 +19,7 @@
             this.Quantity = quantity;
         }
 
-        public abstract int DiscountCalc(DateTime curDate);
+        public abstract decimal DiscountCalc(DateTime curDate);
      
 
         public string Name 
@@ -74,6 +74,10 @@
                 {
                     throw new ArgumentOutOfRangeException(ErrorMessages.NEGATIVE_NUMBER_EXCEPTION, Price.ToString());
                 }
+                else
+                {
+                    this.price = value;
+                }
             }
         }
 
@@ -88,6 +92,10 @@
                 if(value <= 0)
                 {
                     throw new ArgumentException(ErrorMessages.NEGATIVE_NUMBER_EXCEPTION, Quantity.ToString());
+                }
+                else
+                {
+                    this.quantity = value;
                 }
             }
 
