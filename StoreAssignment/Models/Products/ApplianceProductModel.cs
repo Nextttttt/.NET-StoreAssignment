@@ -18,7 +18,7 @@
         }
         public override string ToString()
         {
-            return $"{Name} - {Brand} {Model} {Weight}";
+            return $"{Name} - {Brand} {Model} {Weight}kg";
         }
         public override decimal DiscountCalc(DateTime curDate)
         {
